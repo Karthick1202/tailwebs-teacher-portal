@@ -5,7 +5,7 @@ This Django project provides a simple yet extensible Teacher Portal where teache
 
 
 
-How to Run Locally
+->How to Run Locally
 
 1.Clone the repository
 git clone https://github.com/your-username/teacher-portal.git
@@ -32,7 +32,7 @@ python manage.py runserver
 http://127.0.0.1:8000
 
 
- Features Implemented
+->Features Implemented
 
 🔐 Teacher Login Authentication
 
@@ -53,7 +53,7 @@ http://127.0.0.1:8000
 ✅ CSRF Protection, Input Validation
 
 
-Additional Improvements
+->Additional Improvements
 
 🎨 Clean Bootstrap 5 UI
 
@@ -64,32 +64,32 @@ Additional Improvements
 📦 Modular Code (views, forms, templates organized)
 
 
-Security Best Practices Followed
+->Security Best Practices Followed
 
-CSRF tokens used in all forms
+*CSRF tokens used in all forms
 
-Input validation on both frontend & backend
+*Input validation on both frontend & backend
 
-Email reset secured with token-based URL
+*Email reset secured with token-based URL
 
-App password used for SMTP to avoid plain text passwords
-
-
-Testing Strategy
-
-Unit Tests: form validation, view logic
-
-Integration Tests: Login flow, CRUD functionality
-
-Manual End-to-End: full user journeys
+*App password used for SMTP to avoid plain text passwords
 
 
-Scalable & Maintainable Architecture
+->Testing Strategy
 
-Models are easily extendable
+*Unit Tests: form validation, view logic
 
-Views follow Class-Based View (CBV) architecture
+*Integration Tests: Login flow, CRUD functionality
 
-Forms decoupled for reusability
+*Manual End-to-End: full user journeys
 
-All templates extend a base layout
+
+->Scalable & Maintainable Architecture
+
+*Models are easily extendable
+
+*Views follow Class-Based View (CBV) architecture
+
+*Forms decoupled for reusability
+
+*All templates extend a base layout
