@@ -41,6 +41,7 @@ def home_view(request):
                 student.marks += marks
             else:
                 student.marks = marks
+                
             student.save()
             return redirect('home')
         else:
