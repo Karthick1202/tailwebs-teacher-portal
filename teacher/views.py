@@ -38,7 +38,7 @@ def home_view(request):
             marks = out ['marks']
             student, created = Student.objects.get_or_create(name=name, subject=subject)
             if not created:
-                student.marks = marks
+                student.marks += marks
             else:
                 student.marks = marks
             student.save()
